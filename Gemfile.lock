@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/rndev80/rn_devcamp_view_tool
+  revision: 99c189fc823377a7916c6be1aa93ba56b7f883c2
+  specs:
+    rn_devcamp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -220,6 +226,7 @@ DEPENDENCIES
   pry
   puma (~> 3.11)
   rails (~> 5.2.2, >= 5.2.2.1)
+  rn_devcamp_view_tool!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
