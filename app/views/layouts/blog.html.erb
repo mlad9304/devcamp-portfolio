@@ -17,6 +17,14 @@
   <body>
     <%= render 'shared/blog_nav' %>
 
+    <div class="blog-header">
+      <div class="container">
+        <div class="blog-title">My Blog</div>
+        <p class="lead blog-description">An example blog template built with bootstrap</p>
+        <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+      </div>
+    </div>
+
     <main role="main" class="container">
       <div class="row">
         
