@@ -17,6 +17,6 @@ module ApplicationHelper
     end
 
     def copyright_generator
-        RnDevcampViewTool::Renderer.copyright "John Doe", "All rights reserved"
+        RnDevcampViewTool::Renderer.copyright "Rails Dev", "All rights reserved"
     end
 end
