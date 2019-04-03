@@ -63,3 +63,4 @@ gem 'petergate'
 gem "font-awesome-rails"
 gem 'kaminari'
 gem 'jquery-ui-rails'
+gem 'carrierwave', '~> 1.0'
