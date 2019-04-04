@@ -66,3 +66,5 @@ gem 'jquery-ui-rails'
 gem 'carrierwave', '~> 1.0'
 gem "cocoon"
 gem "gritter", "1.2.0"
+gem "twitter"
+gem 'dotenv-rails'
