@@ -9,4 +9,8 @@ class Blog < ApplicationRecord
     has_many :comments, dependent: :destroy
 
     paginates_per 5
+
+    def self.recent
+        order('created_at DESC')
+    end
 end
