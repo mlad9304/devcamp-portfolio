@@ -68,3 +68,4 @@ gem "cocoon"
 gem "gritter", "1.2.0"
 gem "twitter"
 gem 'dotenv-rails'
+gem 'redis'
