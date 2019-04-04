@@ -15,6 +15,8 @@ class BlogsController < ApplicationController
   def show
     @page_title = @blog.title
     @seo_keywords = @blog.body
+
+    @comment = Comment.new
   end
 
   # GET /blogs/new
@@ -78,7 +80,7 @@ class BlogsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_blog
-      @blog = Blog.friendly.find(params[:id])
+      @blog = Blog.includes(:comments).friendly.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
